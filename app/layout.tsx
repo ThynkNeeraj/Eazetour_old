@@ -80,7 +80,7 @@ export default function RootLayout({
               dangerouslySetInnerHTML={{ __html: JSON.stringify(homePageJsonLd) }}
             />
             <NavBar />
-            <main className="mt-[140px]">{children}</main>
+            <main className="mt-[65px]">{children}</main>
             <Footer />
             <Analytics/>
             <SpeedInsights/>
